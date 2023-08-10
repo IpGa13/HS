@@ -78,5 +78,19 @@
         }
         
     </style>
+
+    <script>
+        const subtitles = [
+            "Random Subtitle 1",
+            "Random Subtitle 2",
+            "Random Subtitle 3",
+            "Random Subtitle 4",
+        ];
+
+        let subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
+
+        document.getElementById("subtitle").innerHTML = subtitle;
+
+    </script>
 </body>
 </html>
