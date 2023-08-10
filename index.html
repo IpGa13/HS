@@ -8,7 +8,7 @@
 <body>
     <div class="main">
         <video autoplay muted loop id="bgvid">
-            <source src="hsbroll.mp4" type="video/mp4">
+            <source src="assets/video/hsbroll.mp4" type="video/mp4">
         </video>
         <div class="header">
             <h1>Himmelsky Server</h1>
@@ -16,17 +16,22 @@
         </div>
 
         <div class="content">
-            <p>Veganism suxx</p>
+            <p>This is the part where you normally get some cool info about the server and stuff, but i am terrible at writing such things... <br>So instead you can marvel at these beatiful screenshots with shaders that totally didnt lag my pc out to all hell</p>
+            <img src="assets/img/2023-08-10_01.23.46.png" alt="">
+            <img src="assets/img/2023-08-10_01.24.38.png" alt="">
+            <img src="assets/img/2023-08-10_01.24.56.png" alt="">
+            <img src="assets/img/2023-08-10_01.25.41.png" alt="">
         </div>
 
         <div class="footer">
-
+            <p>© 2023 Himmelsky Team</p>
         </div>
     </div>
 
     <style>
         body {
             font-family: sans-serif;
+            text-shadow:2px 2px black;
         }
 
         #bgvid {
@@ -44,6 +49,7 @@
             vertical-align: middle;
             position: relative;
             width:100%;
+            height:90vh
         }
 
         .content {
@@ -51,7 +57,24 @@
             background: rgba(0,0,0,0.5);
             text-align:center;
             color: white;
+            
             padding: 20px;
+            margin: 5px;
+        }
+
+        .content img {
+            width: 50%;
+            height:auto;
+            margin:5px
+        }
+
+        .footer {
+            position: relative;
+            background: rgba(0,0,0,0.5);
+            text-align:center;
+            color: white;
+            padding: 20px;
+            margin: 5px;
         }
         
     </style>
