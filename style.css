@@ -13,6 +13,24 @@
             transform: translateZ(.25px)
         }
 
+        #scrollalert {
+            animation: scrolltext 10s ease normal;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes scrolltext {
+            0% {
+                opacity: 0;
+            }
+            90% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
         
 
         .header {
